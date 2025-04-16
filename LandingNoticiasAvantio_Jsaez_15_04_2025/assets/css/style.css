@@ -1,0 +1,115 @@
+body {
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background-color: #fdfaf5 !important;
+    color: #333;
+}
+
+.container {
+    background-color: #ffffff; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    padding: 2rem;
+}
+
+.logo-avantio {
+    height: auto;
+    max-height: 0.5em; 
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+h1.fw-bold {
+    font-weight: 700;
+    color: #002d62;
+    font-size: 4rem;
+}
+
+#filtro.form-select {
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+.btn.btn-primary {
+    background-color: #0057a0;
+    border-color: #0057a0;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn.btn-primary:hover {
+    background-color: #003e77;
+    border-color: #003e77;
+}
+
+/* Arreglos tarjetas */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #002d62;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #555;
+    margin-bottom: 0.75rem;
+}
+
+.card-footer {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.modal-content {
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.modal-title {
+    color: #002d62;
+    font-weight: 600;
+}
+
+
+/* ANIMACIÓN TITULO */
+
+@keyframes focus-in-expand {
+    0% {
+    letter-spacing: -0.5em;
+    filter: blur(12px);
+    opacity: 0;
+    }
+    100% {
+    filter: blur(0);
+    opacity: 1;
+    }
+}
+
+.focus-in-expand {
+    animation: focus-in-expand 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

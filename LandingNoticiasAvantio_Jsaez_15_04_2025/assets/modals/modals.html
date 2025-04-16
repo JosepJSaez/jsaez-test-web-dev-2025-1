@@ -1,0 +1,36 @@
+<!-- MODAL AÑADIR NOTICIA -->
+<div class="modal fade" id="modalAgregarNoticia" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <form id="formularioNoticia">
+            <div class="modal-header justify-content-center">
+            <h5 class="modal-title text-center w-100" id="modalLabel">Añadir noticia</h5>
+            <button type="button" class="btn-close position-absolute end-0 me-3" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+            </div>
+            <div class="modal-body">
+            <div class="mb-3">
+                <label for="titulo" class="form-label">Título</label>
+                <input type="text" class="form-control" id="titulo" required>
+            </div>
+            <div class="mb-3">
+                <label for="fuente" class="form-label">Fuente</label>
+                <input type="text" class="form-control" id="fuente" required>
+            </div>
+            <div class="mb-3">
+                <label for="imagen" class="form-label">URL de la imagen</label>
+                <input type="url" class="form-control" id="imagen" required>
+            </div>
+            <div class="mb-3">
+                <label for="cuerpo" class="form-label">Cuerpo de la noticia</label>
+                <textarea class="form-control" id="cuerpo" rows="3"></textarea>
+            </div>
+            </div>
+            <div class="modal-footer d-flex justify-content-between">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+            <button type="button" onclick="validaciones()" class="btn btn-primary" id="btnGuardarNoticia">Guardar</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
+<!-- FIN MODAL AÑADIR NOTICIA -->

@@ -1,0 +1,37 @@
+[
+    {
+        "titulo": "Descubrimiento del cometa C/2025 F2 (SWAN)",
+        "descripcion": "El cometa C/2025 F2 (SWAN), descubierto en marzo de 2025, ha aumentado su brillo significativamente y será visible con binoculares desde el hemisferio norte durante abril.",
+        "imagen": "assets/images/cometa_swan.png",
+        "source": "UnoTV",
+        "fecha": "2025-04-08"
+    },
+    {
+        "titulo": "Sara García Alonso: primera astronauta española de la ESA",
+        "descripcion": "La bióloga molecular leonesa Sara García Alonso hizo historia al ser seleccionada como astronauta de reserva por la Agencia Espacial Europea en 2022. Desde entonces, ha iniciado su formación en el Centro Europeo de Astronautas y continúa su labor investigadora en el CNIO, liderando proyectos contra el cáncer de pulmón y páncreas.",
+        "imagen": "assets/images/sara_garcia.png",
+        "source": "ESA",
+        "fecha": "2025-04-15"
+    },
+    {
+        "titulo": "Celebración del Día Mundial del Piano 2025",
+        "descripcion": "El 29 de marzo se celebró el Día Mundial del Piano, con conciertos y eventos en todo el mundo para homenajear este instrumento de 88 teclas.",
+        "imagen": "assets/images/piano_cola.png",
+        "source": "Piano Day",
+        "fecha": "2025-03-29"
+    },
+    {
+        "titulo": "Michael Davidman gana los American Piano Awards 2025",
+        "descripcion": "El pianista Michael Davidman ha ganado los American Piano Awards 2025, obteniendo un premio valorado en más de $200,000, incluyendo contratos de grabación y giras.",
+        "imagen": "assets/images/michael_davidman.jpg",
+        "source": "Curtis Institute of Music",
+        "fecha": "2025-04-06"
+    },
+    {
+        "titulo": "El alquiler vacacional impulsa la recuperación del mercado inmobiliario en zonas costeras",
+        "descripcion": "Según el último informe de Idealista, la demanda de viviendas destinadas al alquiler turístico ha crecido un 18% en el último año en localidades costeras españolas. Esto ha provocado un aumento del interés inversor y una revalorización media del 12% en estos inmuebles.",
+        "imagen": "assets/images/vivienda.jpg", 
+        "source": "Idealista News",
+        "fecha": "2025-04-14"
+    }
+]
