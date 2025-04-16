@@ -8,3 +8,6 @@ He añadido algunas librerias e imágenes al local por hacerlo un poquitín más
 Saludos y gracias por la oportunidad! 🙇
 
 Jose J. Sáez.
+
+
+EDIT: El entorno simple y sencillo lo he corrido en el navegador local con Visual Studio y Live Server para ejecutar el JS.
